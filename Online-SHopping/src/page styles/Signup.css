@@ -1,0 +1,69 @@
+.signup-wrapper{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url('../store_images/Jinnah_Mausoleum.jpeg');
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+    width: 75%;
+    text-align: center;
+    align-items: center;
+}
+
+.Signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.signup-field{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 75%;
+text-align: center;
+/* padding-top: 75px; */
+margin-top: 75px;
+}
+
+.signup-inputfield{
+    width: 80rem;
+    text-align: center;
+    height: 5rem;
+    font-size: xx-large;
+    background-color: #363945;
+}
+.label-tag{
+    text-align: center;
+    /* padding-left: 38rem;*/
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.text-btn-2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

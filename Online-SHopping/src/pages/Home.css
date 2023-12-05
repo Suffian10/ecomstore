@@ -1,0 +1,43 @@
+.home-image{
+    object-fit: cover;
+}
+.main-div{
+    position: relative;
+
+}
+.second-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.445);
+}
+.second-div-content{
+    color: white;
+    font-size:xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.text-mart{
+color: rgb(132, 27, 27);
+}
+
+.slogon{
+    letter-spacing: 6px;
+}
+.text-btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.kuch-bhi:hover{
+font: bold;
+color: blue;
+text-decoration: underline;
+font-style: italic;
+}
