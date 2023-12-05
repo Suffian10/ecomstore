@@ -1,7 +1,11 @@
 import React from 'react'
 // import { FaRegStar } from "react-icons/fa";
 import { IoBagAddOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 export default function Card({ img, title, star, reviews, newPrice, prevPrice }) {
+  const cart = () => {
+
+  }
   return (
     <section className='card'>
       <img src={img} alt={title} className='card-image' />
@@ -16,10 +20,13 @@ export default function Card({ img, title, star, reviews, newPrice, prevPrice })
             <del>{prevPrice}</del> <b>{newPrice}</b>
           </div>
           <div className='bag'>
+            <Link to={"/cart"}>
             <IoBagAddOutline className='bag-icon' />
-          </div>
-        </section>
+          </Link>
+
       </div>
     </section>
+      </div >
+    </section >
   )
 }

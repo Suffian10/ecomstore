@@ -8,6 +8,7 @@ import Shop from './pages/Shop';
 import Nav from './Navigations/Nav';
 import SignUp from './pages/SignUp';
 import LogInPage from './pages/LogInPage';
+import Cart from './Cart/Cart';
 function App() {
 
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -66,6 +67,7 @@ function App() {
         <Route exact path='/Products' element={<Shop handleChange={handleChange} handleClick={handleClick} query={query} result={result} handleInputChange={handleInputChange} />} />
         <Route exact path='/signup' element={<SignUp />} />
         <Route exact path='/login' element={< LogInPage />} />
+        <Route exact path='/cart' element={<Cart/>} />
       </Routes>
     </>
   );
