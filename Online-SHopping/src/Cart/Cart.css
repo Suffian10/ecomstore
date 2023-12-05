@@ -1,0 +1,42 @@
+/* Cart.css */
+
+/* Style for the shopping cart container */
+.cart-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+  }
+  
+  /* Style for each cart item */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  /* Style for the remove button */
+  .remove-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  /* Style for the total amount */
+  .total {
+    font-weight: bold;
+    margin-top: 16px;
+  }
+  
+  /* Style for the clear cart button */
+  .clear-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  

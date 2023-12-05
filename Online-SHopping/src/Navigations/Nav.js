@@ -17,7 +17,7 @@ export default function Nav({ handleInputChange, query }) {
                 />
             </div>
             <div className="profile-container">
-                <Link to={"/"}>
+                <Link to={"/home"}>
                     <FaHome className='nav-icons' />
                 </Link>
                 <Link to={"/products"}>
@@ -27,7 +27,7 @@ export default function Nav({ handleInputChange, query }) {
                     <AiOutlineShoppingCart className="nav-icons" />
                 </Link>
 
-                <Link to={"/signup"}>
+                <Link to={"/"}>
                     <AiOutlineUserAdd className="nav-icons" />
                 </Link>
 

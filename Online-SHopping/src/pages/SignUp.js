@@ -3,14 +3,7 @@ import { Link } from 'react-router-dom'
 import "../page styles/Signup.css"
 
 export default function SignUp() {
-    const showpassword = () => {
-        var x = document.getElementById("myInput");
-        if (x.type === "password") {
-            x.type = "text";
-        } else {
-            x.type = "password";
-        }
-    }
+
     return (
         <div className='signup-wrapper'>
             <div className='signup-container'>
@@ -49,11 +42,10 @@ export default function SignUp() {
                                 type='password'
                                 placeholder='Enter Your Password'
                              />
-                            {/* <button onClick={showpassword}>Show Password</button> */}
                             <h1 className='text-btn'>
                                 Already have an account then what are you waiting for?
                                 <br />
-                                <Link className='kuch-bhi' to={"/login"}>
+                                <Link className='kuch-bhi' to={"/"}>
 
                                     Log In
 

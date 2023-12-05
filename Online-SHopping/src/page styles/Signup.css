@@ -48,6 +48,7 @@ margin-top: 75px;
     text-align: center;
     height: 5rem;
     font-size: xx-large;
+    color: white;
     background-color: #363945;
 }
 .label-tag{
@@ -57,7 +58,7 @@ margin-top: 75px;
     font-size: larger;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: firebrick;
 }
 .text-btn-2{
     justify-content: center;

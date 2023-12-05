@@ -63,10 +63,10 @@ function App() {
     <> 
       <Nav query={query} handleInputChange={handleInputChange} />
       <Routes>
-        <Route exact path='/' element={<Home />} />
+        <Route exact path='/home' element={<Home />} />
         <Route exact path='/Products' element={<Shop handleChange={handleChange} handleClick={handleClick} query={query} result={result} handleInputChange={handleInputChange} />} />
         <Route exact path='/signup' element={<SignUp />} />
-        <Route exact path='/login' element={< LogInPage />} />
+        <Route exact path='/' element={< LogInPage />} />
         <Route exact path='/cart' element={<Cart/>} />
       </Routes>
     </>
