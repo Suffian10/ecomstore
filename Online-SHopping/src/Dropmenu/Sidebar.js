@@ -12,7 +12,7 @@ export default function Sidebar({ handleChange }) {
                 </div>
                 <Category handleChange={handleChange} />
                 <Price handleChange={handleChange} />
-                <Colors handleChange={handleChange} />
+                {/* <Colors handleChange={handleChange} /> */}
             </section>
         </>
     )

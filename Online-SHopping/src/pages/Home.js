@@ -3,7 +3,6 @@ import { Carousel } from '@trendyol-js/react-carousel';
 import { Link } from 'react-router-dom'
 import a from "../store_images/wallpaperflare.com_wallpaper.jpg"
 import './Home.css'
-import AboutSection from '../components/AboutSection';
 export default function Home() {
     return (
         <>
