@@ -9,6 +9,7 @@ import Nav from './Navigations/Nav';
 import SignUp from './pages/SignUp';
 import LogInPage from './pages/LogInPage';
 import Cart from './Cart/Cart';
+import Confirm from './confirm';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -72,6 +73,7 @@ function App() {
         <Route exact path='/signup' element={<SignUp />} />
         <Route exact path='/' element={< LogInPage />} />
         <Route exact path='/cart' element={<Cart />} />
+        <Route exact path='/confirm' element={<Confirm />} />
       </Routes>
     </>
   );
